@@ -1,0 +1,114 @@
+body {
+    background: url(photo_background.jpg) no-repeat;
+    background-size: cover;
+}    
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.content {
+    width:60%;
+    min-width: 900px;
+    max-width: 1600px;
+    height: 100vh;
+    min-height: 800px;
+    margin: auto;
+}
+
+.title {
+    font-size:40px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+}
+
+.sub-section {
+    width:100%;
+    height: 45%;
+    display: flex;
+}
+
+.pictures {
+    width:100%;
+    height: 70%;
+    display: flex;
+}
+   
+.big-picture {
+    width: 97.5%;
+    height: 55%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+   
+.big-picture[bp="1"] {
+    background-image: url(https://th.bing.com/th/id/OIP.EHgQon9yg0dllBZW_qehIgHaE3?w=290&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    margin-bottom: auto;
+    margin-right: auto;
+}
+   
+.big-picture[bp="2"] {
+    background-image: url(https://th.bing.com/th/id/OIP.QY13dGyo9sReW9GBQbwZdQHaEb?w=261&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    margin-top: auto;
+    margin-left: auto;
+}
+   
+.small-picture {
+    width: 46%;
+    height: 94%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+#img-1 {
+    background-image: url(https://www.discovertreks.com/wp-content/uploads/2017/09/Nepal-discover-himalayan-treks.jpg);
+    margin-right: auto;
+    margin-top: auto;
+
+}
+   
+#img-2 {
+    background-image: url(https://th.bing.com/th/id/R.15a60e845300197b25bba980d2266012?rik=BcteUj2VIESrQg&pid=ImgRaw&r=0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#img-3 {
+    background-image: url(https://images.wallpapersden.com/image/download/beautiful-iceland-landscape_bGdrZ2eUmZqaraWkpJRobWllrWdma2U.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#img-4 {
+    background-image: url(https://th.bing.com/th/id/OIP.48dIwa3JhZGT4OXehMUEYwHaE7?pid=ImgDet&rs=1);
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
