@@ -1,0 +1,113 @@
+body{
+    background: url(FFTablet_1100x.progressive.webp);
+    padding: 2%;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.word-spacing{
+    word-spacing: 40px;
+}
+
+.text{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.big_text{
+    font-size: 200px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.border_text{
+    padding: 15px;
+    border: 0.1em solid white;
+    word-spacing: 2px;
+    float: right;
+    font-size: 13px;
+}
+
+.loga{
+    width: 30px;
+    margin-left: 13%;
+
+}
+ 
+.left-bottom {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    padding: 20px; 
+    font-size: 25px;
+    width: 24%;
+}
+
+.right-bottom {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    padding: 20px;
+}
+
+.image{
+    width: 180px;
+}
+
+@media (max-width: 1400px){
+    .word-spacing{
+        word-spacing: 20px;
+    }
+
+    .loga{
+        width: 30px;
+        margin-left: 12%;
+    
+    }
+
+    .big_text{
+        font-size: 160px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .word-spacing{
+        word-spacing: 40px;
+        float: right; 
+        font-size: 15px;
+    }
+    .big_text{
+        display: none;
+    }
+    .border_text{
+        display: none;
+    }
+    .loga{
+        display: none;
+    }
+    .text{
+        display:inline-block ;
+        margin-left: 130px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .lost{
+        display: none;
+    }
+    .left-bottom {
+        left: 10%;
+        top: 15%;
+        right: 10%;
+        width: 75%;
+    }
+    div{
+        text-align: center;
+    }
+    .right-bottom{
+        bottom: 5%;
+        right: 35.5%;
+    }
+}
