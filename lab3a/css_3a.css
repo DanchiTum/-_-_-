@@ -1,0 +1,224 @@
+body{
+    text-align: center;
+    overflow-y: scroll;
+    background:linear-gradient(to bottom, blue 1550px, orange 1550px, orange 1800px, blue 1800px, blue 2900px, white 2900px, white 4100px, blue 4100px, blue 4800px, white 4800px, white 5650px, grey 5650px);
+    background-size: 100%;
+   
+}
+footer {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: grey;
+    color: white;
+    width: 100%;
+}
+.tabl1{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    align-items: center;
+    width: 15%;
+    height: 120px;
+    border: 20px;
+    border-radius: 10%;
+    margin: 10px;
+}
+.tabl2{
+    text-align: center;
+    color: black;
+    background-color: white;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    border: 20px;
+    border-radius: 10%;
+    margin-top: 30px;
+    padding: 10px;
+}
+.tabl3{
+    color: grey;
+    background-color: white;
+    align-items: center;
+    width: 20%;
+    height: 200px;
+    border: 20px;
+    border-radius: 10%;
+    margin-top: 30px;
+    padding: 10px;
+}
+.tabl4{
+    color:white;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+
+}
+.bcimg{
+    width: 500px;
+    height: 500px;
+    top: 60px;
+    right: 40%;
+    border:20px;
+    border-radius: 100%;
+    
+}
+.bcimg2{
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 20%;
+    border:20px;
+    border-radius: 100%;
+    
+}
+.table1{
+    left: 45%;
+    top: 180px;
+    width:30%; 
+    border-spacing:20px;
+    position: absolute;
+} 
+.table2{
+    margin-top: 200px;
+    width: 60%;
+}
+.table3{
+    margin-top: 400px;
+    width:70%;
+    
+}
+.top_tabl{   
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    font-size: 40px;
+    height: 80px;
+    border: 20px;
+    border-radius: 10%;
+}
+.small_img{
+    width:60px;
+    height:60px;
+    border: 20px;
+    border-radius: 100%;
+    background-color: orange;
+    padding: 5px;
+}
+.small_img2{
+    border: 20px;
+    border-radius: 10%;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+}
+.button{
+    padding: 10px;
+    color: blue;
+    background-color: orange;
+    border: 10px;
+    border-radius: 15%;
+    width: 110px;
+}
+.block{
+    text-align: left;
+    color: black;
+    background-color: white;
+    align-items: center;
+    width: 20%;
+    height: 300px;
+    border: 20px;
+    border-radius: 10%;
+    padding: 50px;
+    left: 30%;
+    top: 2890px;
+    position: absolute;
+    line-height: 1.5;
+}
+.block2{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    border: 20px;
+    border-radius: 5%;                                
+    font-size: 23px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+    width: 40%;
+    margin-top: 150px;
+}
+.content {
+    width:70%;
+    max-height: 500px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: flex;
+}
+.section {
+    width: 50%;
+    height: 100%;
+}
+.left{
+padding: 2%;
+text-align: right;
+width: 35%;
+
+}
+.right{
+padding: 2%;
+text-align: left;
+width: 35%;
+
+}
+.small_img3{
+    height:150px;
+    width:150px;
+    border:5px solid orange;
+    border-radius:100%;
+    
+}
+.small_img4{
+    height:250px;
+    width:250px;
+    border:20px;
+    border-radius: 100%;
+    top: 4250px;
+    position: absolute;
+    right:42%;
+}
+.input_text{
+    width:100%;
+    border-bottom: 2px solid grey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:grey;
+}
+.blbutton{
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.bttable{
+    color:white;
+    background-color: blue;
+    padding: 30px;
+    border: 10px;
+    border-radius: 10%;
+    width: 20%;
+}
