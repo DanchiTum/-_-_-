@@ -351,22 +351,22 @@
 
    .block2{
       border-spacing: 15px;
-      width: 30%;
+      width: 32%;
       height: 150px;
       display: table;
       position: relative;
-      margin-top: 15px;
-      margin-left: 23%;
+      margin-top: 25px;
+      margin-left: 21%;
       z-index: 2;
    }
    .big_sec2{
-      width: 50%;
+      width: 48%;
       display: table-row;
    }
    .small_sec2{
       
       padding: 25px; 
-      height: 50%;   
+      height: 48%;   
       background-color: #333333; 
       border-spacing: 10px;
       display: table-cell;
@@ -382,7 +382,7 @@
       position: relative; 
       line-height: 1.2;
       z-index: 1; 
-      top: -445px;
+      top: -430px;
       background-color: white; 
       left: 48%;
       text-align: center;
