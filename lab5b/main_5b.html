@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Калькулятори</title>
+</head>
+<body>
+    <h1>Калькулятори</h1>
+    <div>
+        <h2>Калькулятор площі трикутника за трьома сторонами</h2>
+        <label>Сторона A: <input type="number" id="sideA1"></label><br>
+        <label>Сторона B: <input type="number" id="sideB1"></label><br>
+        <label>Сторона C: <input type="number" id="sideC1"></label><br><br>
+        <button onclick="CalculateBySides()">Розрахувати</button>
+        <p>Площа трикутника: <span id="Result1"></span></p>
+    </div>
+    <div>
+        <h2>Калькулятор площі трикутника за двома сторонами і кутом між ними</h2>
+        <label>Сторона A: <input type="number" id="sideA2"></label><br>
+        <label>Сторона B: <input type="number" id="sideB2"></label><br>
+        <label>Кут між ними: <input type="number" id="angle2"></label><br><br>
+        <button onclick="CalculateBySidesAndAngle()">Розрахувати</button>
+        <p>Площа трикутника: <span id="Result2"></span></p>
+    </div>
+    <div>
+        <h2>Калькулятор площі трикутника за стороною та висотою</h2>
+        <label>Сторона: <input type="number" id="side3-4"></label><br>
+        <label>Висота: <input type="number" id="height3-4"></label><br><br>
+        <button onclick="CalculateByHeight()">Розрахувати</button>
+        <p>Площа трикутника: <span id="Result3-4"></span></p>
+    </div>
+    <div>
+        <h2>Калькулятор площі трикутника за трьома сторонами та радіусом описаного кола</h2>
+        <label>Сторона A: <input type="number" id="sideA"></label><br>
+        <label>Сторона B: <input type="number" id="sideB"></label><br>
+        <label>Сторона C: <input type="number" id="sideC"></label><br>
+        <label>Радіус описаного кола: <input type="number" id="radius"></label><br><br>
+        <button onclick="СalculateBySidesAndRadius()">Розрахувати</button>
+        <p>Площа трикутника: <span id="Result5"></span></p>
+    </div>
+    <div>
+        <h2>Перевірка числа на паліндром</h2>
+        <label>Введіть число: <input type="number" id="checknumber"></label><br><br>
+        <button onclick="CheckPalindrome()">Перевірити</button>
+        <p id="Result6"></p>
+    </div>
+    <div>
+        <h2>Перевірка на анаграму</h2>
+        <label>Введіть перше слово: <input type="text" id="word1"></label><br>
+        <label>Введіть друге слово: <input type="text" id="word2"></label><br><br>
+        <button onclick="CheckAnagram()">Перевірити</button>
+        <p id="Result7"></p>    
+    </div>
+    <div>
+        <h2>Число Фібоначчі</h2>
+        <label>Введіть порядковий номер: <input type="number" id="inputnumber"></label><br><br>
+        <button onclick="CalculateFibonacci()">Перевірити</button>
+        <p id="Result8"></p>    
+    </div>
+    <div>
+        <h2>Перевірка належності до послідовності Фібоначчі</h2>
+        <label>Введіть число: <input type="number" id="somenumber"></label><br><br>
+        <button onclick="CheckFibonacci()">Перевірити</button>
+        <p id="Result9"></p>
+    </div>
+    <script src="java_5b1.js"></script>
+    <script src="java_5b2.js"></script>
+    <script src="java_5b3-4.js"></script>
+    <script src="java_5b5.js"></script>
+    <script src="java_5b6.js"></script>
+    <script src="java_5b7.js"></script>
+    <script src="java_5b8.js"></script>
+    <script src="java_5b9.js"></script>
+</body>
+</html>
