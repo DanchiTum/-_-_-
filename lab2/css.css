@@ -6,17 +6,18 @@
 
 .mintext {
     text-align: center;
-    color: darkgray;
+    color: #858E99;
 }
 
 body {
-    background-color: black;
+    background-color: #292D33;
+    margin: 0;
 }
 
 .tabl {
     text-align: center;
     color: white;
-    background-color: darkgray;
+    background-color: #434951;
     align-items: center;
     width: 15%;
     height: 200px;
@@ -28,7 +29,10 @@ body {
 
 .down{
     padding: 3%;
-background-color: gray;
+background-color: #333333;
 text-align: center;
 color: white;
+margin-top: 30px;
+font-size: 12px;
+height: 50px;
 }
