@@ -7,7 +7,8 @@ const isArrayEqual = (selected, correct) => {
  if (selected.length !== correct.length) {
   return false;
  }
- return correct.filter(e => !selected.includes(e)).length === 0;
+ return selected.every((value) => correct.includes(value));
+//  correct.filter(e => !selected.includes(e)).length === 0;
 };
 
 /**
@@ -92,7 +93,8 @@ const MultiAnswerComponent = (props) => {
        </div>
        {showCorrectAnswer && (
         <div className='correct-answer' style={{ color: 'green' }}>
-        {props.answers[props.correctAnswer[0]]}
+        {/* {props.answers[props.correctAnswer[0]]} */}
+        {props.correctAnswer.map((index) => props.answers[index]).join(', ')}
        </div>
        )}
       </div>
