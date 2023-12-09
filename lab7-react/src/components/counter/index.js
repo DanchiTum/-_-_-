@@ -34,7 +34,6 @@ const CounterComponent = (props) => {
     limit++;
   }
 
-  // Add elements of newArray to selectedGoods
   newArray.forEach(item => addGoods(item));
  }
 
