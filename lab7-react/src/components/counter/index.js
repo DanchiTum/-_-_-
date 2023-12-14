@@ -4,20 +4,21 @@ import GoodsContext from '../../context/goods.context';
 import GoodsComponent from '../goods';
 
 const CounterComponent = (props) => {
+  console.log(props)
  const { selectedGoods, addGoods } = useContext(GoodsContext);
  const goods = props.data
  const [data] = useState(goods);
  let sortedData = [...data];
  sortedData = sortedData.sort((a, b) => b.cost - a.cost);
  let limit = 40;
- let newArray = [];
-
+ 
  const autoDetectClick = () => {
   let sum = 0
+  let newArray = [];
 
   while (sum != limit) {
     for (const item of sortedData) {
-      sum = newArray.reduce((acc, cur) => acc + cur.cost, 0);
+      //sum = newArray.reduce((acc, cur) => acc + cur.cost, 0);
       if (!newArray.includes(item)) {
         if (sum + item.cost <= limit) {
           newArray.push(item);
