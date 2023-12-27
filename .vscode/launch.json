@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open lab_5a.html",
-            "file": "c:\\Users\\Tumki\\OneDrive\\Робочий стіл\\Web-програмування\\-_-_-\\lab5a\\lab_5a.html"
+            "name": "Open main.html",
+            "file": "c:\\Users\\Tumki\\OneDrive\\Робочий стіл\\Web-програмування\\-_-_-\\lab4a\\main.html"
         }
     ]
 }
