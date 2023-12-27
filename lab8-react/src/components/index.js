@@ -16,8 +16,9 @@ function App () {
   const [filteredTodos, setFilteredTodos] = useState(todos);
 
   useEffect(() => {
-    localStorage.setItem('todos', JSON.stringify(todos));
+    setFilteredTodos(todos);
   }, [todos]);
+  
 
   const handleSearchClick = () => {
     setFilteredTodos(todos.filter(todo => todo.text.includes(searchText)));
