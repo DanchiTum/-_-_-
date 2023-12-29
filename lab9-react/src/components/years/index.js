@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
@@ -6,27 +6,11 @@ import CalendarContext from '../../context/calendar.context';
 
 const YearsComponent = () => {
 
-  const { currentDate, setCurrentDate } = useContext(CalendarContext);
+  const { currentDate, setCurrentDate, events } = useContext(CalendarContext);
 
   const [year, setYear] = useState(currentDate.getFullYear());
 
   const halfCount = 12;
-
-  /**
-   * 2011 2012  2013  2014 2015
-   * 2016 2017  2018  2019 2020
-   * 2021 2022 *2023* 2024 2025
-   * 2026 2027  2028  2029 2030
-   * ...
-  */
-  // const years = [];
-  // for (let i = year; i >= (year - halfCount); i -= 1) {
-  //   years.push(i);
-  // }
-  // for (let i = year; i < (year + halfCount); i += 1) {
-  //   years.push(i);
-  // }
-  // => [2023, 2024, ...]
 
   const nextPage = () => {
     setYear((prevYear) => prevYear + 25);
@@ -55,11 +39,15 @@ const YearsComponent = () => {
           .fill(null)
           .map((_el, index) => {
             const showYear = year - halfCount + index;
-
-            return (<div
-              className='year content-item'
-              onClick={() => click(showYear)}
-            >{showYear}</div>);
+            const hasEvent = Object.keys(events).some(key => key.startsWith(showYear.toString()));
+            return (
+              <div
+                className={`year content-item ${hasEvent ? 'has-event' : ''}`}
+                onClick={() => click(showYear)}
+              >
+                {showYear}
+              </div>
+            );
           })
       }
       <div className='year content-item' onClick={() => click(year)} >{year}</div>
@@ -68,10 +56,12 @@ const YearsComponent = () => {
           .fill(null)
           .map((_el, index) => {
             const showYear = year + index + 1;
+            const hasEvent = Object.keys(events).some(key => key.startsWith(showYear.toString()));
             return (
-              <div className='year content-item' onClick={() => click(showYear)} >
+              <div className={`year content-item ${hasEvent ? 'has-event' : ''}`} onClick={() => click(showYear)} >
                 {showYear}
-              </div>);
+              </div>
+            );
           })
       }
     </div>

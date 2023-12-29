@@ -30,8 +30,12 @@ const DayComponent = () => {
       {
         Array(24).fill(null)
           .map((_, index) => {
+            const hasEvent = eventsToday.some(event => {
+              const date = new Date(event.date);
+              return date.getHours() === index;
+            });
             return (
-              <div className='hours-wrapper'>
+              <div className={`hours-wrapper ${hasEvent ? 'has-event' : ''}`}>
                 <div className='hours'>
                   <span>{index}:00</span>
                 </div>
