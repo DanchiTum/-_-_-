@@ -1,0 +1,73 @@
+body { 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0e1111; 
+    gap: 20px;
+    display: inline-flex;
+    height: 694px;
+    margin: 0px;
+}
+.div{
+    gap: 30px;
+    flex-direction: column;
+    width: 300px;
+    background-color: #353839;
+    border-radius: 10px;
+    border: 0px;
+    padding: ;
+}
+/* 
+кольори:
+ - #50C50C
+ - #5fbd5f
+ - #a6a621
+
+A: 20px між елементами
+
+B:
+```
+ширина 64px;
+відноення сторін 1/1;
+```
+
+C: 
+```
+ширина 300px
+відноення сторін 1/1.25;
+колір фону: #353839;
+радіус кутів 10px
+```
+D: 30px між елементами
+
+H: 60px між елементами
+
+G: 
+```
+font-size: 1.75em;
+```
+
+F: 
+```
+font-size: 1.25em;
+```
+
+E: 
+```
+font-size: 1.05em;
+```
+
+title
+```
+Ex fugiat voluptate anim
+```
+
+description
+```
+Tempor nostrud eiusmod deserunt id ex consectetur commodo ex.Elit non ea cillum nostrud id nulla aute.
+```
+
+Read more
+```
+Read more
+``` */
