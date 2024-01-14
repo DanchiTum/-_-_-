@@ -10,7 +10,6 @@ body{
     width: 220px;
     height: 220px;
     position: relative;
-    perspective: 1000px;
 }
 .image-box {
     background-color: #37373B;
