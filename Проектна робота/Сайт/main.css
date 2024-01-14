@@ -1196,7 +1196,7 @@ body{
             >.cat13{
                 padding: 32px;
                 gap: 32px;
-                height: 324px;
+                height: 225px;
                 >.toptext{
                     font-size: 24px;
                 }
@@ -1204,7 +1204,7 @@ body{
             >.cat2{
                 padding: 32px;
                 gap: 32px;
-                height: 324px;
+                height: 225px;
             }
         }
     }
