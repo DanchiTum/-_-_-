@@ -40,8 +40,7 @@ body {
         display: flex;
         align-items: center;
         font-size: 1.75em;
-        font-weight: bold; 
-        transition: transform 0.3s;
+        font-weight: bold;
     }
     .circle:before {
         content: "";
