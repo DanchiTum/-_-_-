@@ -52,19 +52,15 @@ body{
     gap: 10px;
 }
 .image-box:hover .top{
-    opacity: 1;
     transform: translateY(-200px);
 }
 .image-box:hover .bottom{
-    opacity: 1;
     transform: translateY(210px);
 }
 .image-box:hover .left{
-    opacity: 1;
     transform: translateX(-200px);
 }
 .image-box:hover .right{
-    opacity: 1;
     transform: translateX(210px);
 }
 .left {
