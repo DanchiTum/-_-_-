@@ -43,17 +43,9 @@ body {
         font-weight: bold; 
         transition: transform 0.3s;
     }
-    /* >.circle:hover{
-        transform: scale(15); 
-    }
-    >.circle:hover span{
-        transform: scale(1/15); 
-    } */
     .circle:before {
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         border-radius: 50%;
