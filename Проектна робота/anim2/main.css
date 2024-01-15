@@ -85,8 +85,8 @@ body{
     transition: transform 0.5s;
 }
 .circle{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 0px;
 }
