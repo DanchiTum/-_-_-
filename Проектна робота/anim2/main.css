@@ -2,13 +2,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 694px;
+    height: 720px;
     background-color: #101211;
     overflow: hidden;
 }
 .container {
-    width: 220px;
-    height: 220px;
+    width: 270px;
+    height: 270px;
     position: relative;
 }
 .image-box {
@@ -22,8 +22,8 @@ body{
     border: 0px;
     z-index: 1;
     >img{
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
         margin: 10px;
         transform: scaleX(-1);
     }
@@ -37,13 +37,12 @@ body{
 .sides {
     background-color: #37373B;
     position: absolute;
-    width: 90px;
-    height: 200px;
+    width: 115px;
+    height: 250px;
     color: #F5F7F8;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    transform: translateY(0);
     justify-content: flex-start;
     flex-direction: column;
     display: flex;
@@ -51,32 +50,32 @@ body{
     gap: 10px;
 }
 .image-box:hover .top{
-    transform: translateY(-200px);
+    transform: translateY(-250px);
 }
 .image-box:hover .bottom{
-    transform: translateY(210px);
+    transform: translateY(260px);
 }
 .image-box:hover .left{
-    transform: translateX(-200px);
+    transform: translateX(-260px);
 }
 .image-box:hover .right{
-    transform: translateX(210px);
+    transform: translateX(260px);
 }
 .left {
-    width: 190px;
-    height: 90px;
-    margin-top: 110px;
+    width: 250px;
+    height: 115px;
+    margin-top: 135px;
 }
 .right {
-    width: 200px;
-    height: 90px;
+    width: 250px;
+    height: 115px;
 }
 .top {
     transform: translateZ(100px);
 }
 .bottom {
     transform: translateZ(100px);
-    margin-left: 110px;
+    margin-left: 135px;
 }
 .block{
     padding: 5px;
